@@ -1134,6 +1134,7 @@ MonoBehaviour:
   gravity: -9.81
   mouseSensitivity: 2
   maxLookAngle: 80
+  recoilMultiplier: 0.18
   playerCamera: {fileID: 18790448}
 --- !u!23 &1559070273
 MeshRenderer:
@@ -1830,7 +1831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2133460582
 Transform:
   m_ObjectHideFlags: 0
