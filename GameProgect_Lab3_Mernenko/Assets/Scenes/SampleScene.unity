@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6eb9528dddb3044a341fe3b80a17c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
+  damage: 30
   fireRate: 0.45
   range: 100
   maxAmmo: 20
@@ -564,8 +564,8 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  recoilAmount: 3
-  recoilRecovery: 5
+  recoilAmount: 7
+  recoilRecovery: 4
   spread: 0.25
   muzzleFlash: {fileID: 0}
   shootSound: {fileID: 0}
@@ -1868,8 +1868,8 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  recoilAmount: 2
-  recoilRecovery: 5
+  recoilAmount: 5
+  recoilRecovery: 3
   spread: 0.5
   muzzleFlash: {fileID: 0}
   shootSound: {fileID: 0}
@@ -1964,11 +1964,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7630080129241390450, guid: 564c7ec7b5fb6e943ac442fc6199836e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.79
+      value: 1.12
       objectReference: {fileID: 0}
     - target: {fileID: 7630080129241390450, guid: 564c7ec7b5fb6e943ac442fc6199836e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.44
+      value: 3.73
       objectReference: {fileID: 0}
     - target: {fileID: 7630080129241390450, guid: 564c7ec7b5fb6e943ac442fc6199836e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2039,7 +2039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5501346566061228752, guid: 7d88c2295cad7da45bec57684db7d08d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.69
+      value: 2.07
       objectReference: {fileID: 0}
     - target: {fileID: 5501346566061228752, guid: 7d88c2295cad7da45bec57684db7d08d, type: 3}
       propertyPath: m_LocalPosition.y
